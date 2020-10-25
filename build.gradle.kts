@@ -16,6 +16,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.13.0")
 }
+
 lateinit var javadocJar: TaskProvider<Jar>
 lateinit var sourcesJar: TaskProvider<Jar>
 
@@ -63,14 +64,5 @@ publishing {
             artifact(sourcesJar.get())
             artifact(javadocJar.get())
         }
-    }
-}
-
-tasks {
-    compileKotlin {
-        kotlinOptions.jvmTarget = "1.8"
-    }
-    compileTestKotlin {
-        kotlinOptions.jvmTarget = "1.8"
     }
 }
