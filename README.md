@@ -1,5 +1,5 @@
-[![GitHub Actions](https://img.shields.io/github/workflow/status/reimersoftware/jsonl-serialization/CI?style=flat-square)](https://github.com/reimersoftware/jsonl-serialization/actions?query=workflow%3A"CI")
-[![JitPack](https://img.shields.io/jitpack/v/github/reimersoftware/jsonl-serialization?style=flat-square)](https://jitpack.io/#dev.reimer/jsonl-serialization)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/heinrichreimer/jsonl-serialization/ci.yml?branch=master&style=flat-square)](https://github.com/heinrichreimer/jsonl-serialization/actions/workflows/ci.yml)
+[![JitPack](https://img.shields.io/jitpack/v/github/heinrichreimer/jsonl-serialization?style=flat-square)](https://jitpack.io/#dev.reimer/jsonl-serialization)
 
 # 🗜️ jsonl-serialization<sup>[α](#status-α)</sup>
 
