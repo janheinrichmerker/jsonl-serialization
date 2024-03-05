@@ -34,7 +34,7 @@ class JsonL(
     override fun <T> save(serializer: SerializationStrategy<T>, objects: Sequence<T>, file: File) {
         file.writer().use { writer ->
             stringify(serializer, objects).forEach { line ->
-                writer.appendln(line)
+                writer.appendLine(line)
             }
         }
     }
