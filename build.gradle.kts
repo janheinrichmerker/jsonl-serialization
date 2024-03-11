@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm") version "1.9.22"
-    kotlin("plugin.serialization") version "1.9.22"
+    kotlin("plugin.serialization") version "1.9.23"
     `maven-publish`
     id("org.jetbrains.dokka") version "0.9.17"
     id("com.palantir.git-version") version "3.0.0"
